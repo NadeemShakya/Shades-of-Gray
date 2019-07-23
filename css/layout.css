@@ -5,50 +5,6 @@ html, body{
     margin: 0;
 }
 
-.testimonial-carousel-container {
-    background: #f6f6f6;
-    margin: 70px 0 0 0;
-    padding: 15px;
-}
-.carousel-container {
-    width: 100%;
-    white-space: nowrap;
-    padding: 50px 0;
-}
-
-
-.carousel-container .leftSliderArrow, .carousel-container .rightSliderArrow{
-    display: block;
-    /* background: url("../images/left-arrow.png"); */
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    bottom: 0;
-    cursor: pointer;
-    transition: .2s;
-    line-height: 0;
-}
-.carousel-container .leftSliderArrow {
-    background: url("../images/left-arrow.png");
-    left: 15px;
-}
-.carousel-container .rightSliderArrow{
-
-    background: url("../images/right-arrow.png");
-    /* left: 45px; */
-    right: 15px;
-}
-.carousel-container .leftSliderArrow:hover {
-    background: url("../images/left-arrow-active.png");
-}
-.carousel-container .rightSliderArrow:hover {
-    background: url("../images/right-arrow-active.png");
-}
-
-.carousel-sections {
-    display: inline-block;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -935,6 +891,49 @@ a {
 
 /* testimonial div starts */
 
+.testimonial-carousel-container {
+    background: #f6f6f6;
+    margin: 70px 0 0 0;
+    padding: 15px;
+}
+.carousel-container {
+    width: 100%;
+    white-space: nowrap;
+    padding: 50px 0;
+}
+
+
+.carousel-container .leftSliderArrow, .carousel-container .rightSliderArrow{
+    display: block;
+    /* background: url("../images/left-arrow.png"); */
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    transition: .2s;
+    line-height: 0;
+}
+.carousel-container .leftSliderArrow {
+    background: url("../images/left-arrow.png");
+    left: 15px;
+}
+.carousel-container .rightSliderArrow{
+
+    background: url("../images/right-arrow.png");
+    /* left: 45px; */
+    right: 15px;
+}
+.carousel-container .leftSliderArrow:hover {
+    background: url("../images/left-arrow-active.png");
+}
+.carousel-container .rightSliderArrow:hover {
+    background: url("../images/right-arrow-active.png");
+}
+
+.carousel-sections {
+    display: inline-block;
+}
 .testimonial-container {
     padding: 50px 10px;
     background: #f5f5f5;
