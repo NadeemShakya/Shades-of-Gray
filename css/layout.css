@@ -1318,14 +1318,10 @@ a {
         border-left: 0;
         border-bottom: 2px solid #3baafe;
     }
-    .content-holder {
-        padding: 216px 0 202px 105px;
-        width: 50%;
-        float: right;
-    }
+
     .brand-slogan {
         font-size: 34px;
-        text-align: right;
+        /* text-align: right; */
         line-height: 60px;
     }
     .button-div {
@@ -1333,12 +1329,6 @@ a {
         width: 100%;
 
     }    
-    .btn-holder {
-        position: relative;
-        right: 0;
-        line-height: 57px;
-        text-align: right;
-    }
     .btn {
         padding: 22px 34px;
         margin:10px 0;
@@ -1547,6 +1537,7 @@ a {
 }
 
 @media only screen and (min-width: 992px ) {
+
     .why-us-container .left-img-card {
         display: block;
         width: 30%;
@@ -1781,6 +1772,20 @@ a {
 @media only screen and (min-width: 1200px) {
     .banner-div .container-fluid {
         padding: 0;
+    }
+    .content-holder {
+        padding: 216px 0 202px 105px;
+        width: 50%;
+        float: right;
+    }
+    .btn-holder {
+        position: relative;
+        right: 0;
+        line-height: 57px;
+        text-align: right;
+    }
+    .brand-slogan {
+        text-align: right;
     }
     .card {
         float: left;
