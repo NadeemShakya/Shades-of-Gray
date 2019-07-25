@@ -1081,7 +1081,7 @@ a {
     color: #fff;
 }
 .fun-fact-box {
-    padding: 10px 40px;
+    padding: 10px 30px;
     width: 50%;
     float: left;
     position: relative;
@@ -1351,7 +1351,7 @@ a {
     .card {
         float: left;
         width: 31.6%;
-        padding: 45px 5px 24px 5px;
+        padding: 45px 15px 24px 15px;
   
       }
       .card:nth-child(2) {
