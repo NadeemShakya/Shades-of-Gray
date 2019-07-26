@@ -697,6 +697,7 @@ a {
 .portfolio-navigator li a:hover {
     background: #3baafe;
     color: #fff;
+    transition: .3s;
 }
 .our-portfolio-container .image-collage {
     margin: 0;
@@ -1231,6 +1232,7 @@ a {
     padding: 10px;
     outline: none;
     color: #777777;
+    cursor: pointer;
 }
 .website-summary .img {
     max-width: 100%;
@@ -1518,10 +1520,12 @@ a {
     }
     .our-pricing-content-holder .pricing-cards:hover .card-header h3{
         background: #3baafe;
+        transition: .3s;
     }
     .our-pricing-content-holder .pricing-cards:hover  button {
         background: #3baafe;
         color: #ffffff;
+        transition: .3s;
     }
     .fun-fact-box {
         float: left;
