@@ -1012,6 +1012,7 @@ a {
     text-align: center;
     background: #b6b6b6;
     color: #ffffff;
+    cursor: pointer;
 }
 .pricing-cards .card-header p {
     line-height: 70px;
@@ -1019,6 +1020,7 @@ a {
     color: #999999;
     text-align: center;
     background: #fafafa;
+    cursor: pointer;
 }
 .pricing-cards .card-header p strong {
     font-size: 25px;
@@ -1052,6 +1054,7 @@ a {
     font-weight: bold;
     background: #e6e6e6;
     color: #777777;
+    cursor: pointer;
 }
 
 /* some fun facts start */
@@ -1343,6 +1346,7 @@ a {
         background-color: #fff;
         color: #777777;
         cursor: pointer;
+        transition: .3s;
     }
     .cards-best-info {
         padding: 119px 0 84px 0;
