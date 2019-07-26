@@ -808,9 +808,9 @@ a {
 
 .from-our-blog-title-holder {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-.from-our-blog-container .title {
+.from-our-blog-title-holder .title {
     display: inline-block;
     margin: 0 auto;
     background: url("../images/mainLogo.png") no-repeat left;
@@ -1848,7 +1848,7 @@ a {
     }
     .from-our-blog-title-holder {
         text-align: center;
-        margin-bottom: 70px;
+        margin: 75px 0 0 0;
     }
     .info-block-img.paper-plane, .info-block-img.anchor, .info-block-img.coding,
     .info-block-img.info-block-img.ball{
