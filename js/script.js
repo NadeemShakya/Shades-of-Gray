@@ -7,7 +7,6 @@ let headerNavigationHeight = null;
 hamburgerMenu.addEventListener("click", function() {
     toggleClass();
     let headerNavigationActive = document.querySelector(".header-navigator.active");
-    console.log("clicked");
     if(headerNavigationActive) {
         headerNavigationActive.style.maxHeight = `${100}vh`
     }else {
